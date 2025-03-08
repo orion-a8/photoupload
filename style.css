@@ -1,0 +1,82 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+
+.form-section {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    font-size: 0.9em;
+    font-weight: medium;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.form-group textarea {
+    height: 80px;
+}
+
+.upload-section {
+    text-align: center;
+    border: 2px dashed #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.upload-section i {
+    font-size: 2em;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.upload-section p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.upload-section button {
+    background-color: #FF9933; /* Saffron */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+form button[type="submit"] {
+    background-color: #FF9933; /* Saffron */
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
