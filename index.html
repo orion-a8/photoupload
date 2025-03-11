@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>स्वतंत्रता सेनानी उत्तराधिकारी पंजीकरण</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-<link href="https://ai-public.creatie.ai/gen_page/tailwind-custom-v2.css" rel="stylesheet"><script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
-<script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
-</head>
-
-<body class="bg-gray-50">
-<div class="max-w-[375px] mx-auto min-h-screen pb-16">
-<header class="bg-custom px-4 py-3 fixed w-full max-w-[375px] top-0 z-50"><div class="flex items-center justify-between">
-<h1 class="text-white text-lg font-bold">स्वतंत्रता सेनानी उत्तराधिकारी पंजीकरण</h1></div>
-</header>
-
-<main class="mt-14 px-4">
-<nav class="flex gap-2 mb-6 sticky top-14 bg-white z-40 py-2">
-</nav>
-    <title>स्वतंत्रता सेनानी उत्तराधिकारी पंजीकरण</title>
-   <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>फोटो अपलोड</title>
 </head>
 <body>
-<div class="bg-white p-4 rounded-lg shadow-sm">
-<h2 class="text-lg font-bold mb-4">फोटो अपलोड</h2><div class="border-2 border-dashed border-gray-200 rounded-lg p-4 text-center">
-<i class="fas fa-camera text-3xl text-gray-400 mb-2"></i>
-<p class="text-sm text-gray-500">सेल्फी अपलोड करने के लिए यहाँ क्लिक करें</p><input type="file" accept="image/*" class="hidden" id="selfie">
-<button type="button" onclick="document.getElementById('selfie').click()" class="mt-2 bg-custom text-white px-4 py-2 text-sm font-medium !rounded-button">फोटो चुनें</button>
-</div>
-</div>
-        <button type="submit">Submit</button>
-    </form>
 
-     <script src="script.js"></script>
+    <h2>फोटो अपलोड करें</h2>
+    <input type="file" id="selfie" accept="image/*">
+    <button onclick="uploadImage()">अपलोड करें</button>
+
+    <p id="status"></p>
+
+   
+
 </body>
 </html>
